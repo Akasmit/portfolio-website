@@ -9,7 +9,7 @@ const About = () => {
           
           <div className="space-y-4 text-lg text-muted-foreground">
             <p>
-              I'm a passionate full-stack developer with over 5 years of experience building 
+              I'm a passionate full-stack developer with over 2 years of experience building 
               modern web applications that combine beautiful design with powerful functionality.
             </p>
             
@@ -20,12 +20,12 @@ const About = () => {
             
             <p>
               When I'm not coding, you'll find me exploring new technologies, contributing to 
-              open-source projects, or sharing knowledge with the developer community.
+              projects, or sharing knowledge with the developer community.
             </p>
           </div>
 
           <div className="flex flex-wrap gap-3 pt-4">
-            {["React", "TypeScript", "Node.js", "Next.js", "Tailwind CSS", "PostgreSQL"].map((skill) => (
+            {["React", "TypeScript", "Node.js", "Next.js", "Tailwind CSS", "Python"].map((skill) => (
               <span 
                 key={skill}
                 className="px-4 py-2 bg-card border border-border rounded-lg text-sm font-medium hover-glow"
@@ -40,7 +40,7 @@ const About = () => {
           <div className="aspect-square rounded-2xl overflow-hidden border-2 border-primary/30 hover-glow">
             <div className="w-full h-full bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center">
               <div className="text-center space-y-4">
-                <div className="text-6xl">👨‍💻</div>
+                <div className="text-6xl">🧑🏻‍💻</div>
                 <p className="text-2xl font-bold text-gradient">Crafting Digital Experiences</p>
               </div>
             </div>

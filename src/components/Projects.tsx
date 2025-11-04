@@ -1,28 +1,52 @@
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "Full-stack e-commerce solution with payment integration and real-time inventory management.",
-      tags: ["React", "Node.js", "Stripe", "MongoDB"],
-      gradient: "from-primary to-primary/50"
+      title: "OOEF Frontend",
+      description: "Modern frontend for the OOEF platform with authentication, dashboards, and responsive UI.",
+      tags: ["React", "TypeScript", "Vite", "Tailwind CSS"],
+      gradient: "from-primary to-secondary/60",
+      link: "https://github.com/Akasmit/ooefFrontend",
+      github: "https://github.com/Akasmit/ooefFrontend"
     },
     {
-      title: "AI Dashboard",
-      description: "Analytics dashboard with AI-powered insights and data visualization.",
-      tags: ["Next.js", "Python", "TensorFlow", "D3.js"],
-      gradient: "from-secondary to-secondary/50"
+      title: "OOEF LMS",
+      description: "Learning Management System with courses, quizzes, progress tracking, and role-based access.",
+      tags: ["React", "Node.js", "Express", "MongoDB"],
+      gradient: "from-secondary to-primary/60",
+      link: "https://github.com/Akasmit/ooef-LMS",
+      github: "https://github.com/Akasmit/ooef-LMS"
     },
     {
-      title: "Social Media App",
-      description: "Real-time social platform with messaging, posts, and user interactions.",
-      tags: ["React Native", "Firebase", "WebSockets"],
-      gradient: "from-primary to-secondary"
+      title: "OOEF Web Admin",
+      description: "Administrative dashboard for OOEF with analytics, user management, and content workflows.",
+      tags: ["React", "TypeScript", "Redux", "Chart.js"],
+      gradient: "from-primary to-primary/50",
+      link: "https://github.com/Akasmit/ooefWeb-Admin",
+      github: "https://github.com/Akasmit/ooefWeb-Admin"
     },
     {
-      title: "Task Management Tool",
-      description: "Collaborative project management platform with team features and integrations.",
-      tags: ["Vue.js", "Express", "PostgreSQL", "Redis"],
-      gradient: "from-secondary to-primary"
+      title: "Movie Recommender",
+      description: "Machine learning–based movie recommendation system using collaborative filtering and content features.",
+      tags: ["Python", "scikit-learn", "Pandas", "Flask"],
+      gradient: "from-secondary to-secondary/50",
+      link: "https://github.com/Akasmit/Movie-Recomender",
+      github: "https://github.com/Akasmit/Movie-Recomender"
+    },
+    {
+      title: "DALL·E Image Generator",
+      description: "Full‑stack app to generate images from text prompts using the OpenAI API, with gallery and sharing.",
+      tags: ["React", "Node.js", "OpenAI API", "Cloudinary"],
+      gradient: "from-primary to-secondary",
+      link: "https://github.com/Akasmit/Dall-E",
+      github: "https://github.com/Akasmit/Dall-E"
+    },
+    {
+      title: "Driver Drowsiness Monitoring",
+      description: "Computer vision system that detects driver fatigue in real time using eye/face landmarks and alerts.",
+      tags: ["Python", "OpenCV", "Dlib", "Deep Learning"],
+      gradient: "from-secondary to-primary",
+      link: "https://github.com/Akasmit/Driver-Drowsiness-Monitoring-System",
+      github: "https://github.com/Akasmit/Driver-Drowsiness-Monitoring-System"
     }
   ];
 
@@ -66,12 +90,22 @@ const Projects = () => {
                 </div>
 
                 <div className="flex gap-4 pt-4">
-                  <button className="text-primary hover:text-primary/80 font-semibold transition-colors">
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary hover:text-primary/80 font-semibold transition-colors"
+                  >
                     View Project →
-                  </button>
-                  <button className="text-muted-foreground hover:text-foreground font-semibold transition-colors">
+                  </a>
+                  {/* <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-muted-foreground hover:text-foreground font-semibold transition-colors"
+                  >
                     GitHub →
-                  </button>
+                  </a> */}
                 </div>
               </div>
             </div>

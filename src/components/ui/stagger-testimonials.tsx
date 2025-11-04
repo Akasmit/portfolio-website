@@ -10,26 +10,26 @@ const testimonials = [
   {
     tempId: 0,
     testimonial: "Akasmit delivered an exceptional product that exceeded our expectations. His technical skills are outstanding.",
-    by: "Sarah Johnson, CEO at TechStart",
-    imgSrc: "https://i.pravatar.cc/150?img=1"
+    by: "Riya Jain, Product Manager at OOEF",
+    imgSrc: "/Riya.png"
   },
   {
     tempId: 1,
-    testimonial: "Working with Akasmit was a pleasure. He's not just a developer, but a problem solver who truly understands business needs.",
-    by: "Michael Chen, Product Manager at InnovateCo",
-    imgSrc: "https://i.pravatar.cc/150?img=2"
+    testimonial: "Professional, responsive, and incredibly talented. Akasmit turned our vision into reality with elegant code and beautiful design.",
+    by: "Preetam Saini, Director at OOEF",
+    imgSrc: "/Preetam.png"
   },
   {
     tempId: 2,
     testimonial: "Akasmit's expertise in modern web technologies helped us transform our platform. Highly recommended for complex projects.",
-    by: "Emily Rodriguez, CTO at DataFlow",
-    imgSrc: "https://i.pravatar.cc/150?img=3"
+    by: "Tyler Lubben, Founder of Vizual Intelligence",
+    imgSrc: "/Tyler.png"
   },
   {
     tempId: 3,
-    testimonial: "Professional, responsive, and incredibly talented. Akasmit turned our vision into reality with elegant code and beautiful design.",
-    by: "David Kim, Founder at StartupHub",
-    imgSrc: "https://i.pravatar.cc/150?img=4"
+    testimonial: "Working with Akasmit was a pleasure. He's not just a developer, but a problem solver who truly understands business needs.",
+    by: "Ramashish, Director at OOEF",
+    imgSrc: "/Shish.png"
   },
   {
     tempId: 4,
@@ -41,92 +41,92 @@ const testimonials = [
     tempId: 5,
     testimonial: "The best developer I've worked with. Akasmit's attention to detail and code quality is exceptional.",
     by: "James Wilson, CTO at TechVentures",
-    imgSrc: "https://i.pravatar.cc/150?img=6"
-  },
-  {
-    tempId: 6,
-    testimonial: "Akasmit's full-stack expertise saved us months of development time. Absolutely worth every penny.",
-    by: "Rachel Green, Founder at StartupLabs",
-    imgSrc: "https://i.pravatar.cc/150?img=7"
-  },
-  {
-    tempId: 7,
-    testimonial: "I would be lost without Akasmit's solutions. The ROI is easily 100X for us.",
-    by: "Daniel Martinez, CEO at ScaleUp",
-    imgSrc: "https://i.pravatar.cc/150?img=8"
-  },
-  {
-    tempId: 8,
-    testimonial: "Simply the best web developer. Period.",
-    by: "Fernando Santos, UX Designer at DesignFirst",
     imgSrc: "https://i.pravatar.cc/150?img=9"
   },
-  {
-    tempId: 9,
-    testimonial: "I hired Akasmit 2 years ago and never looked back. Outstanding quality every single time.",
-    by: "Andy Lee, DevOps Lead at CloudSystems",
-    imgSrc: "https://i.pravatar.cc/150?img=10"
-  },
-  {
-    tempId: 10,
-    testimonial: "I've been searching for a developer like Akasmit for YEARS. So glad I finally found him!",
-    by: "Pete Thompson, Sales Director at GrowthCo",
-    imgSrc: "https://i.pravatar.cc/150?img=11"
-  },
-  {
-    tempId: 11,
-    testimonial: "Akasmit's solutions are so intuitive, we got the team up to speed in 10 minutes.",
-    by: "Marina Costa, Product Owner at TechFlow",
-    imgSrc: "https://i.pravatar.cc/150?img=12"
-  },
-  {
-    tempId: 12,
-    testimonial: "Akasmit's support is unparalleled. Always available and ready to help with any challenge.",
-    by: "Olivia Brown, Project Manager at BuildRight",
-    imgSrc: "https://i.pravatar.cc/150?img=13"
-  },
-  {
-    tempId: 13,
-    testimonial: "The efficiency gains we've seen since working with Akasmit are off the charts!",
-    by: "Raj Patel, Operations Director at StreamlineTech",
-    imgSrc: "https://i.pravatar.cc/150?img=14"
-  },
-  {
-    tempId: 14,
-    testimonial: "Akasmit has revolutionized our workflow. It's a complete game-changer!",
-    by: "Lila Zhang, Tech Lead at InnovateNow",
-    imgSrc: "https://i.pravatar.cc/150?img=15"
-  },
-  {
-    tempId: 15,
-    testimonial: "Akasmit's solutions scale beautifully. They grow with our business seamlessly.",
-    by: "Trevor Moore, CTO at GrowthEngine",
-    imgSrc: "https://i.pravatar.cc/150?img=16"
-  },
-  {
-    tempId: 16,
-    testimonial: "I appreciate how Akasmit stays ahead of the curve with the latest technologies.",
-    by: "Naomi Kim, Innovation Lead at FutureLab",
-    imgSrc: "https://i.pravatar.cc/150?img=17"
-  },
-  {
-    tempId: 17,
-    testimonial: "The ROI from working with Akasmit is incredible. Best investment we've made.",
-    by: "Victor Chang, Finance Director at ProfitMax",
-    imgSrc: "https://i.pravatar.cc/150?img=18"
-  },
-  {
-    tempId: 18,
-    testimonial: "Akasmit's work is robust yet elegant. Perfect balance of form and function.",
-    by: "Yuki Tanaka, Tech Architect at SystemsPro",
-    imgSrc: "https://i.pravatar.cc/150?img=19"
-  },
-  {
-    tempId: 19,
-    testimonial: "We've tried many developers, but Akasmit stands out in reliability and performance.",
-    by: "Zoe Williams, Engineering Manager at ReliableTech",
-    imgSrc: "https://i.pravatar.cc/150?img=20"
-  }
+  // {
+  //   tempId: 6,
+  //   testimonial: "Akasmit's full-stack expertise saved us months of development time. Absolutely worth every penny.",
+  //   by: "Rachel Green, Founder at StartupLabs",
+  //   imgSrc: "https://i.pravatar.cc/150?img=7"
+  // },
+  // {
+  //   tempId: 7,
+  //   testimonial: "I would be lost without Akasmit's solutions. The ROI is easily 100X for us.",
+  //   by: "Daniel Martinez, CEO at ScaleUp",
+  //   imgSrc: "https://i.pravatar.cc/150?img=8"
+  // },
+  // {
+  //   tempId: 8,
+  //   testimonial: "Simply the best web developer. Period.",
+  //   by: "Fernando Santos, UX Designer at DesignFirst",
+  //   imgSrc: "https://i.pravatar.cc/150?img=9"
+  // },
+  // {
+  //   tempId: 9,
+  //   testimonial: "I hired Akasmit 2 years ago and never looked back. Outstanding quality every single time.",
+  //   by: "Andy Lee, DevOps Lead at CloudSystems",
+  //   imgSrc: "https://i.pravatar.cc/150?img=10"
+  // },
+  // {
+  //   tempId: 10,
+  //   testimonial: "I've been searching for a developer like Akasmit for YEARS. So glad I finally found him!",
+  //   by: "Pete Thompson, Sales Director at GrowthCo",
+  //   imgSrc: "https://i.pravatar.cc/150?img=11"
+  // },
+  // {
+  //   tempId: 11,
+  //   testimonial: "Akasmit's solutions are so intuitive, we got the team up to speed in 10 minutes.",
+  //   by: "Marina Costa, Product Owner at TechFlow",
+  //   imgSrc: "https://i.pravatar.cc/150?img=12"
+  // },
+  // {
+  //   tempId: 12,
+  //   testimonial: "Akasmit's support is unparalleled. Always available and ready to help with any challenge.",
+  //   by: "Olivia Brown, Project Manager at BuildRight",
+  //   imgSrc: "https://i.pravatar.cc/150?img=13"
+  // },
+  // {
+  //   tempId: 13,
+  //   testimonial: "The efficiency gains we've seen since working with Akasmit are off the charts!",
+  //   by: "Raj Patel, Operations Director at StreamlineTech",
+  //   imgSrc: "https://i.pravatar.cc/150?img=14"
+  // },
+  // {
+  //   tempId: 14,
+  //   testimonial: "Akasmit has revolutionized our workflow. It's a complete game-changer!",
+  //   by: "Lila Zhang, Tech Lead at InnovateNow",
+  //   imgSrc: "https://i.pravatar.cc/150?img=15"
+  // },
+  // {
+  //   tempId: 15,
+  //   testimonial: "Akasmit's solutions scale beautifully. They grow with our business seamlessly.",
+  //   by: "Trevor Moore, CTO at GrowthEngine",
+  //   imgSrc: "https://i.pravatar.cc/150?img=16"
+  // },
+  // {
+  //   tempId: 16,
+  //   testimonial: "I appreciate how Akasmit stays ahead of the curve with the latest technologies.",
+  //   by: "Naomi Kim, Innovation Lead at FutureLab",
+  //   imgSrc: "https://i.pravatar.cc/150?img=17"
+  // },
+  // {
+  //   tempId: 17,
+  //   testimonial: "The ROI from working with Akasmit is incredible. Best investment we've made.",
+  //   by: "Victor Chang, Finance Director at ProfitMax",
+  //   imgSrc: "https://i.pravatar.cc/150?img=18"
+  // },
+  // {
+  //   tempId: 18,
+  //   testimonial: "Akasmit's work is robust yet elegant. Perfect balance of form and function.",
+  //   by: "Yuki Tanaka, Tech Architect at SystemsPro",
+  //   imgSrc: "https://i.pravatar.cc/150?img=19"
+  // },
+  // {
+  //   tempId: 19,
+  //   testimonial: "We've tried many developers, but Akasmit stands out in reliability and performance.",
+  //   by: "Zoe Williams, Engineering Manager at ReliableTech",
+  //   imgSrc: "https://i.pravatar.cc/150?img=20"
+  // }
 ];
 
 interface TestimonialCardProps {
