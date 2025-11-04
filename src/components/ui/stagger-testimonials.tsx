@@ -11,25 +11,25 @@ const testimonials = [
     tempId: 0,
     testimonial: "Akasmit delivered an exceptional product that exceeded our expectations. His technical skills are outstanding.",
     by: "Riya Jain, Product Manager at OOEF",
-    imgSrc: "/Riya.png"
+    imgSrc: "Riya.png"
   },
   {
     tempId: 1,
     testimonial: "Professional, responsive, and incredibly talented. Akasmit turned our vision into reality with elegant code and beautiful design.",
     by: "Preetam Saini, Director at OOEF",
-    imgSrc: "/Preetam.png"
+    imgSrc: "Preetam.png"
   },
   {
     tempId: 2,
     testimonial: "Akasmit's expertise in modern web technologies helped us transform our platform. Highly recommended for complex projects.",
     by: "Tyler Lubben, Founder of Vizual Intelligence",
-    imgSrc: "/Tyler.png"
+    imgSrc: "Tyler.png"
   },
   {
     tempId: 3,
     testimonial: "Working with Akasmit was a pleasure. He's not just a developer, but a problem solver who truly understands business needs.",
     by: "Ramashish, Director at OOEF",
-    imgSrc: "/Shish.png"
+    imgSrc: "Shish.png"
   },
   {
     tempId: 4,
@@ -176,7 +176,7 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({
         }}
       />
       <img
-        src={testimonial.imgSrc}
+        src={`${import.meta.env.BASE_URL}${testimonial.imgSrc}`}
         alt={`${testimonial.by.split(',')[0]}`}
         className="mb-4 h-14 w-12 bg-muted object-cover object-top"
         style={{
