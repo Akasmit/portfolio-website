@@ -14,10 +14,10 @@ const Contact = () => {
             <div className="text-4xl mb-2">📧</div>
             <h3 className="font-bold text-lg">Email</h3>
             <a 
-              href="mailto:alex@example.com" 
+              href="mailto:akasmit@example.com" 
               className="text-primary hover:text-primary/80 transition-colors"
             >
-              alex@example.com
+              akasmit@example.com
             </a>
           </div>
 
@@ -30,7 +30,7 @@ const Contact = () => {
               rel="noopener noreferrer"
               className="text-primary hover:text-primary/80 transition-colors"
             >
-              /in/alexrivera
+              /in/akasmitbachhav
             </a>
           </div>
 
@@ -43,7 +43,7 @@ const Contact = () => {
               rel="noopener noreferrer"
               className="text-primary hover:text-primary/80 transition-colors"
             >
-              @alexrivera
+              @akasmitbachhav
             </a>
           </div>
         </div>
@@ -68,7 +68,7 @@ const Contact = () => {
           </div>
           
           <p className="text-muted-foreground text-sm">
-            © 2024 Alex Rivera. Built with React & Tailwind CSS.
+            © 2024 Akasmit Bachhav. Built with React & Tailwind CSS.
           </p>
         </div>
       </div>

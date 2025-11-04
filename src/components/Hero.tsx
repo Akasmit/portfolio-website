@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="space-y-2">
           <h2 className="text-2xl md:text-3xl text-muted-foreground font-light">Hello, I'm</h2>
           <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold text-gradient">
-            Alex Rivera
+            Akasmit Bachhav
           </h1>
         </div>
         
