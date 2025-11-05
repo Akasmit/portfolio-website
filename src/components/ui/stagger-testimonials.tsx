@@ -175,14 +175,25 @@ const TestimonialCard: React.FC<TestimonialCardProps> = ({
           height: 2
         }}
       />
-      <img
-        src={`${import.meta.env.BASE_URL}${testimonial.imgSrc}`}
-        alt={`${testimonial.by.split(',')[0]}`}
-        className="mb-4 h-14 w-12 bg-muted object-cover object-top"
-        style={{
-          boxShadow: "3px 3px 0px hsl(var(--background))"
-        }}
-      />
+      {(() => {
+        const isAbsoluteUrl =
+          testimonial.imgSrc.startsWith("http://") ||
+          testimonial.imgSrc.startsWith("https://") ||
+          testimonial.imgSrc.startsWith("//");
+        const resolvedSrc = isAbsoluteUrl
+          ? testimonial.imgSrc
+          : `${import.meta.env.BASE_URL}${testimonial.imgSrc}`;
+        return (
+          <img
+            src={resolvedSrc}
+            alt={`${testimonial.by.split(',')[0]}`}
+            className="mb-4 h-14 w-12 bg-muted object-cover object-top"
+            style={{
+              boxShadow: "3px 3px 0px hsl(var(--background))"
+            }}
+          />
+        );
+      })()}
       <h3 className={cn(
         "text-base sm:text-xl font-medium",
         isCenter ? "text-primary-foreground" : "text-foreground"
